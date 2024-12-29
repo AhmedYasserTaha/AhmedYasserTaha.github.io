@@ -60080,11 +60080,12 @@ $S:46}
 A.ov.prototype={
 N(a){return A.nT(A.yK(B.L0),new A.hS(new A.a0k(),null))}}
 A.a0k.prototype={
-$2(a,b){var s,r=A.bM(a,null,t.w).w.a.a
-if(r>1200)s=4
-else s=r>800?3:2
+$2(a,b){var s,r,q=A.bM(a,null,t.w).w.a.a
+if(q>1200)s=4
+else s=q>800?3:2
+r=q>800?16:8
 $.aal()
-return A.Qp(new A.o6(s,8,8,0.65),new A.a0j(),6,new A.aZ(8,8,8,8))},
+return A.Qp(new A.o6(s,6,6,0.55),new A.a0j(),6,new A.aZ(8,r,8,r))},
 $S:49}
 A.a0j.prototype={
 $2(a,b){return new A.i6($.aal()[b],null)},
